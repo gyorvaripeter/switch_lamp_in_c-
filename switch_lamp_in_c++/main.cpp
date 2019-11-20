@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    int l [4], i=00;
+    int l [4], i=0;
     cout << "write 4  switch position, off=0 on=1\n" << endl;
     while(i<4){
         cin>>l[i];
@@ -12,8 +12,5 @@ int main(int argc, const char * argv[]) {
         case 0: cout << "darkness reigns" << endl;break;
         default: cout << "The light is shining" << endl;break;
     }
-        
-        
-    
     return 0;
 }
